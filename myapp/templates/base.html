@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Navbar</title>
+  <style>
+    /* Basic styling for the body */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Styling the navbar container */
+    .navbar {
+      background-color: #333; /* Dark background */
+      overflow: hidden; /* To keep the content inside */
+    }
+
+    /* Style for navbar links */
+    .navbar a {
+      float: left; /* Align links to the left */
+      display: block; /* Make links block-level for full clickable area */
+      color: white; /* Text color */
+      text-align: center;
+      padding: 14px 20px; /* Padding for spacing */
+      text-decoration: none; /* Remove underline */
+    }
+
+    /* Change background on hover */
+    .navbar a:hover {
+      background-color: #575757;
+    }
+
+    /* Active link styling */
+    .navbar a.active {
+      background-color: #04AA6D; /* Green background */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar section -->
+  <div class="navbar">
+    <a href="/app/home/" class="active">Home</a>
+    <a href="/app/about/">About</a>
+    <a href="/app/services/">Services</a>
+    <a href="/app/contact/">Contact</a>
+    <a href="/order/allorders/">Order</a>
+  </div>
+
+  <!-- Content section -->
+  <div style="padding:20px;">
+    <h1>Welcome to My Base Page</h1>
+    
+
+</body>
+</html>
