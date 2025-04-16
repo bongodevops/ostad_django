@@ -23,7 +23,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myapp',  # Your custom app
-    'orderapp',  # Your custom app
+    'orderapp', # Your custom app
+    'todo_app', # Your custom app
 ]
 
 MIDDLEWARE = [

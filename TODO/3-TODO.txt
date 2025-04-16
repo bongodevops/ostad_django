@@ -1,0 +1,9 @@
+=> model create
+=> python manage.py makemigrations
+=> python manage.py migrate
+=> task.json for fixture
+=> python manage.py loaddata
+=>todo_app/admin.py/
+from .models import Task
+admin.site.register(Task)
+=>
