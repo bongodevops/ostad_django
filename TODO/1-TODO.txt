@@ -1,7 +1,7 @@
 
 /// branch: main
 =>At first django project create command
-==========================================
+
 => mkdir myproject
 => cd myproject
 => pipenv shell
